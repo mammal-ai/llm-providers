@@ -1,0 +1,37 @@
+[
+    {
+        "id": "openai",
+        "icon": "https://cdn.oaistatic.com/assets/favicon-o20kmmos.svg",
+        "name": "OpenAI",
+        "vercelSdkType": "OpenAi",
+        "endpoint": "https://api.openai.com/v1/"
+    },
+    {
+        "id": "cerebras",
+        "icon": "https://cerebras.ai/wp-content/uploads/2022/05/cropped-cerebras-logo-fav-32x32.png",
+        "name": "Cerebras",
+        "vercelSdkType": "OpenAiCompatible",
+        "endpoint": "https://api.cerebras.ai/v1/"
+    },
+    {
+        "id": "groq",
+        "icon": "http://groq.com/wp-content/uploads/2021/04/scroll-logo.svg",
+        "name": "Groq",
+        "vercelSdkType": "Groq",
+        "endpoint": "https://api.groq.com/openai/v1/"
+    },
+    {
+        "id": "anthropic",
+        "icon": "https://www.anthropic.com/images/icons/favicon-32x32.png",
+        "name": "Anthropic",
+        "vercelSdkType": "Anthropic",
+        "endpoint": "https://api.anthropic.com/v1/"
+    },
+    {
+        "id": "google",
+        "icon": "https://www.gstatic.com/lamda/images/gemini_sparkle_v002_d4735304ff6292a690345.svg",
+        "name": "Google",
+        "vercelSdkType": "Google",
+        "endpoint": "https://generativelanguage.googleapis.com/v1beta/"
+    }
+]

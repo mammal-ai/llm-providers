@@ -1,0 +1,117 @@
+[
+    {
+        "name": "Gemini 2.0 Flash",
+        "model": "gemini-2.0-flash-001",
+        "available": true,
+        "meta": {
+            "productionReady": false,
+            "deprecated": false,
+            "contextWindow": 2097152,
+            "defaultTemperature": 1,
+            "maxTemperature": 2
+        }
+    },
+    {
+        "name": "Gemini 2.0 Flash-Lite Preview 02-05",
+        "model": "gemini-2.0-flash-lite-preview-02-05",
+        "available": true,
+        "meta": {
+            "productionReady": false,
+            "deprecated": false,
+            "contextWindow": 2097152,
+            "defaultTemperature": 1,
+            "maxTemperature": 2
+        }
+    },
+    {
+        "name": "Gemini 2.0 Flash Thinking Experimental 01-21",
+        "model": "gemini-2.0-flash-thinking-exp-01-21",
+        "available": true,
+        "meta": {
+            "productionReady": false,
+            "deprecated": false,
+            "contextWindow": 2097152,
+            "defaultTemperature": 1,
+            "maxTemperature": 2
+        }
+    },
+    {
+        "name": "Gemini 2.0 Pro Experimental 02-05",
+        "model": "gemini-2.0-pro-exp-02-05",
+        "available": true,
+        "meta": {
+            "productionReady": false,
+            "deprecated": false,
+            "contextWindow": 2097152,
+            "defaultTemperature": 1,
+            "maxTemperature": 2
+        }
+    },
+    {
+        "name": "Gemini 2.0 Flash",
+        "model": "gemini-2.0-flash-exp",
+        "available": true,
+        "meta": {
+            "productionReady": false,
+            "deprecated": false,
+            "contextWindow": 1048576,
+            "maxOutputTokens": 8192,
+            "defaultTemperature": 1,
+            "maxTemperature": 2
+        }
+    },
+    {
+        "name": "Gemini 1.5 Flash",
+        "model": "gemini-1.5-flash",
+        "available": true,
+        "meta": {
+            "deprecated": false,
+            "inputPrice": 0.075,
+            "outputPrice": 0.3,
+            "contextWindow": 1048576,
+            "maxOutputTokens": 8192,
+            "maxTemperature": 2,
+            "defaultTemperature": 1
+        }
+    },
+    {
+        "name": "Gemini 1.5 Flash-8B",
+        "model": "gemini-1.5-flash-8b",
+        "available": true,
+        "meta": {
+            "deprecated": false,
+            "inputPrice": 0.0375,
+            "outputPrice": 0.15,
+            "contextWindow": 1048576,
+            "maxOutputTokens": 8192,
+            "maxTemperature": 2,
+            "defaultTemperature": 1
+        }
+    },
+    {
+        "name": "Gemini 1.5 Pro",
+        "model": "gemini-1.5-pro",
+        "available": true,
+        "meta": {
+            "deprecated": false,
+            "inputPrice": 1.25,
+            "outputPrice": 5.0,
+            "contextWindow": 2097152,
+            "maxOutputTokens": 8192,
+            "maxTemperature": 2,
+            "defaultTemperature": 1
+        }
+    },
+    {
+        "name": "Gemini 1.0 Pro",
+        "model": "gemini-1.0-pro",
+        "available": true,
+        "meta": {
+            "deprecated": true,
+            "inputPrice": 0.5,
+            "outputPrice": 1.5,
+            "maxTemperature": 2,
+            "defaultTemperature": 1
+        }
+    }
+]

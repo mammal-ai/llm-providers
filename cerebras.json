@@ -1,0 +1,35 @@
+[
+    {
+        "name": "Llama 3.3 70B",
+        "model": "llama-3.3-70b",
+        "available": true,
+        "meta": {
+            "contextWindow": 8192,
+            "maxOutputTokens": 8192,
+            "maxTemperature": 1.5,
+            "defaultTemperature": 0.2
+        }
+    },
+    {
+        "name": "Llama 3.1 70B",
+        "model": "llama3.1-70b",
+        "available": false,
+        "meta": {
+            "contextWindow": 8192,
+            "maxOutputTokens": 8192,
+            "maxTemperature": 1.5,
+            "defaultTemperature": 0.2
+        }
+    },
+    {
+        "name": "Llama 3.1 8B",
+        "model": "llama3.1-8b",
+        "available": true,
+        "meta": {
+            "contextWindow": 8192,
+            "maxOutputTokens": 8192,
+            "maxTemperature": 1.5,
+            "defaultTemperature": 0.2
+        }
+    }
+]

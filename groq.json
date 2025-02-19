@@ -1,0 +1,204 @@
+[
+    {
+        "name": "Gemma 2 9B",
+        "model": "gemma2-9b-it",
+        "available": true,
+        "meta": {
+            "deprecated": false,
+            "contextWindow": 8192
+        }
+    },
+    {
+        "name": "Gemma 7B",
+        "model": "gemma-7b-it",
+        "available": false,
+        "meta": {
+            "deprecated": true,
+            "contextWindow": 8192
+        }
+    },
+    {
+        "name": "Llama 3.3 70B Versatile",
+        "model": "llama-3.3-70b-versatile",
+        "available": true,
+        "meta": {
+            "deprecated": false,
+            "contextWindow": 128000,
+            "maxOutputTokens": 32768
+        }
+    },
+    {
+        "name": "Llama 3.1 70B Versatile",
+        "model": "llama-3.1-70b-versatile",
+        "available": true,
+        "meta": {
+            "deprecated": true,
+            "contextWindow": 128000,
+            "maxOutputTokens": 32768
+        }
+    },
+    {
+        "name": "Llama 3.1 8B Instant",
+        "model": "llama-3.1-8b-instant",
+        "available": true,
+        "meta": {
+            "deprecated": false,
+            "contextWindow": 128000,
+            "maxOutputTokens": 8192
+        }
+    },
+    {
+        "name": "Llama 3 70B",
+        "model": "llama3-70b-8192",
+        "available": true,
+        "meta": {
+            "deprecated": false,
+            "contextWindow": 8192
+        }
+    },
+    {
+        "name": "Llama 3 8B",
+        "model": "llama3-8b-8192",
+        "available": true,
+        "meta": {
+            "deprecated": false,
+            "contextWindow": 8192
+        }
+    },
+    {
+        "name": "Mixtral 8x7B",
+        "model": "mixtral-8x7b-32768",
+        "available": true,
+        "meta": {
+            "deprecated": false,
+            "contextWindow": 32768
+        }
+    },
+    {
+        "name": "Llama 3 Groq 70B Tool Use",
+        "model": "llama3-groq-70b-8192-tool-use-preview",
+        "available": true,
+        "meta": {
+            "productionReady": false,
+            "deprecated": false,
+            "contextWindow": 8192
+        }
+    },
+    {
+        "name": "Llama 3 Groq 8B Tool Use",
+        "model": "llama3-groq-8b-8192-tool-use-preview",
+        "available": true,
+        "meta": {
+            "productionReady": false,
+            "deprecated": false,
+            "contextWindow": 8192
+        }
+    },
+    {
+        "name": "Llama 3.3 70B Speculative Decoding",
+        "model": "llama-3.3-70b-specdec",
+        "available": true,
+        "meta": {
+            "productionReady": false,
+            "deprecated": false,
+            "contextWindow": 8192
+        }
+    },
+    {
+        "name": "Llama 3.1 70B Speculative Decoding",
+        "model": "llama-3.1-70b-specdec",
+        "available": true,
+        "meta": {
+            "productionReady": false,
+            "deprecated": false,
+            "maxOutputTokens": 8192
+        }
+    },
+    {
+        "name": "Llama 3.2 1B",
+        "model": "llama-3.2-1b-preview",
+        "available": true,
+        "meta": {
+            "productionReady": false,
+            "deprecated": false,
+            "contextWindow": 128000,
+            "maxOutputTokens": 8192
+        }
+    },
+    {
+        "name": "Llama 3.2 3B",
+        "model": "llama-3.2-3b-preview",
+        "available": true,
+        "meta": {
+            "productionReady": false,
+            "deprecated": false,
+            "contextWindow": 128000,
+            "maxOutputTokens": 8192
+        }
+    },
+    {
+        "name": "Llama 3.2 11B Vision",
+        "model": "llama-3.2-11b-vision-preview",
+        "available": true,
+        "meta": {
+            "productionReady": false,
+            "deprecated": false,
+            "contextWindow": 128000,
+            "maxOutputTokens": 8192
+        }
+    },
+    {
+        "name": "Llama 3.2 90B Vision",
+        "model": "llama-3.2-90b-vision-preview",
+        "available": true,
+        "meta": {
+            "productionReady": false,
+            "deprecated": false,
+            "contextWindow": 128000,
+            "maxOutputTokens": 8192
+        }
+    },
+    {
+        "name": "Qwen 2.5 32B",
+        "model": "qwen-2.5-32b",
+        "available": true,
+        "meta": {
+            "productionReady": false,
+            "deprecated": false,
+            "contextWindow": 128000,
+            "maxOutputTokens": 8192
+        }
+    },
+    {
+        "name": "Deepseek R1 Distill Qwen 32B",
+        "model": "deepseek-r1-distill-qwen-32b",
+        "available": true,
+        "meta": {
+            "productionReady": false,
+            "deprecated": false,
+            "contextWindow": 128000,
+            "maxOutputTokens": 16384
+        }
+    },
+    {
+        "name": "Deepseek R1 Distill Llama 70B SpecDec",
+        "model": "deepseek-r1-distill-llama-70b-specdec",
+        "available": true,
+        "meta": {
+            "productionReady": false,
+            "deprecated": false,
+            "contextWindow": 128000,
+            "maxOutputTokens": 16384
+        }
+    },
+    {
+        "name": "Deepseek R1 Distill Llama 70B",
+        "model": "deepseek-r1-distill-llama-70b",
+        "available": true,
+        "meta": {
+            "productionReady": false,
+            "deprecated": false,
+            "contextWindow": 128000
+        }
+    }
+]
