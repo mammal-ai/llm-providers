@@ -1,5 +1,18 @@
 [
     {
+        "name": "Claude 3.7 Sonnet",
+        "model": "claude-3-7-sonnet-20250219",
+        "available": true,
+        "meta": {
+            "deprecated": false,
+            "inputPrice": 3.0,
+            "outputPrice": 15.0,
+            "contextWindow": 200000,
+            "maxOutputTokens": 8192,
+            "maxTemperature": 1
+        }
+    },
+    {
         "name": "Claude 3.5 Sonnet",
         "model": "claude-3-5-sonnet-20241022",
         "available": true,
@@ -8,7 +21,7 @@
             "inputPrice": 3.0,
             "outputPrice": 15.0,
             "contextWindow": 200000,
-            "maxOutputTokens": 4096,
+            "maxOutputTokens": 8192,
             "maxTemperature": 1
         }
     },
@@ -21,7 +34,7 @@
             "inputPrice": 0.8,
             "outputPrice": 4.0,
             "contextWindow": 200000,
-            "maxOutputTokens": 4096,
+            "maxOutputTokens": 8192,
             "maxTemperature": 1
         }
     },
