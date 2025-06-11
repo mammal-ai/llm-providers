@@ -1,24 +1,15 @@
 [
     {
-        "name": "Llama 3.3 70B",
-        "model": "llama-3.3-70b",
+        "name": "Llama 4 Scout",
+        "model": "llama-4-scout-17b-16e-instruct",
         "available": true,
         "meta": {
-            "contextWindow": 8192,
+            "deprecated": false,
+            "inputPrice": 0.65,
+            "outputPrice": 0.85,
+            "contextWindow": 1000000,
             "maxOutputTokens": 8192,
-            "maxTemperature": 1.5,
-            "defaultTemperature": 0.2
-        }
-    },
-    {
-        "name": "Llama 3.1 70B",
-        "model": "llama3.1-70b",
-        "available": false,
-        "meta": {
-            "contextWindow": 8192,
-            "maxOutputTokens": 8192,
-            "maxTemperature": 1.5,
-            "defaultTemperature": 0.2
+            "maxTemperature": 1.0
         }
     },
     {
@@ -26,10 +17,51 @@
         "model": "llama3.1-8b",
         "available": true,
         "meta": {
+            "deprecated": false,
+            "inputPrice": 0.10,
+            "outputPrice": 0.10,
+            "contextWindow": 128000,
+            "maxOutputTokens": 8192,
+            "maxTemperature": 1.0
+        }
+    },
+    {
+        "name": "Llama 3.3 70B",
+        "model": "llama-3.3-70b",
+        "available": true,
+        "meta": {
+            "deprecated": false,
+            "inputPrice": 0.85,
+            "outputPrice": 1.20,
             "contextWindow": 8192,
             "maxOutputTokens": 8192,
-            "maxTemperature": 1.5,
-            "defaultTemperature": 0.2
+            "maxTemperature": 1.0
+        }
+    },
+    {
+        "name": "Qwen 3 32B",
+        "model": "qwen-3-32b",
+        "available": true,
+        "meta": {
+            "deprecated": false,
+            "inputPrice": 0.40,
+            "outputPrice": 0.80,
+            "contextWindow": 8192,
+            "maxOutputTokens": 8192,
+            "maxTemperature": 1.0
+        }
+    },
+    {
+        "name": "Deepseek R1 Distill Llama 70B",
+        "model": "deepseek-r1-distill-llama-70b-instruct",
+        "available": true,
+        "meta": {
+            "deprecated": false,
+            "inputPrice": 2.20,
+            "outputPrice": 2.50,
+            "contextWindow": 8192,
+            "maxOutputTokens": 8192,
+            "maxTemperature": 1.0
         }
     }
 ]
