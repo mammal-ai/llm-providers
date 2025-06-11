@@ -1,5 +1,31 @@
 [
     {
+        "name": "Claude Opus 4",
+        "model": "claude-4-opus-20250522",
+        "available": true,
+        "meta": {
+            "deprecated": false,
+            "inputPrice": 15.0,
+            "outputPrice": 75.0,
+            "contextWindow": 200000,
+            "maxOutputTokens": 32768,
+            "maxTemperature": 1
+        }
+    },
+    {
+        "name": "Claude Sonnet 4",
+        "model": "claude-4-sonnet-20250522",
+        "available": true,
+        "meta": {
+            "deprecated": false,
+            "inputPrice": 3.0,
+            "outputPrice": 15.0,
+            "contextWindow": 200000,
+            "maxOutputTokens": 65536,
+            "maxTemperature": 1
+        }
+    },
+    {
         "name": "Claude 3.7 Sonnet",
         "model": "claude-3-7-sonnet-20250219",
         "available": true,
@@ -8,7 +34,7 @@
             "inputPrice": 3.0,
             "outputPrice": 15.0,
             "contextWindow": 200000,
-            "maxOutputTokens": 8192,
+            "maxOutputTokens": 65536,
             "maxTemperature": 1
         }
     },
