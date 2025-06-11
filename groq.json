@@ -1,20 +1,28 @@
 [
     {
-        "name": "Gemma 2 9B",
-        "model": "gemma2-9b-it",
+        "name": "Llama 4 Maverick 17B",
+        "model": "meta-llama/llama-4-maverick-17b-128e-instruct",
         "available": true,
         "meta": {
             "deprecated": false,
-            "contextWindow": 8192
+            "inputPrice": 0.2,
+            "outputPrice": 0.6,
+            "contextWindow": 131072,
+            "maxOutputTokens": 8192,
+            "maxTemperature": 1.0
         }
     },
     {
-        "name": "Gemma 7B",
-        "model": "gemma-7b-it",
-        "available": false,
+        "name": "Llama 4 Scout 17B",
+        "model": "meta-llama/llama-4-scout-17b-16e-instruct",
+        "available": true,
         "meta": {
-            "deprecated": true,
-            "contextWindow": 8192
+            "deprecated": false,
+            "inputPrice": 0.11,
+            "outputPrice": 0.34,
+            "contextWindow": 16384,
+            "maxOutputTokens": 8192,
+            "maxTemperature": 1.0
         }
     },
     {
@@ -23,8 +31,11 @@
         "available": true,
         "meta": {
             "deprecated": false,
-            "contextWindow": 128000,
-            "maxOutputTokens": 32768
+            "inputPrice": 0.59,
+            "outputPrice": 0.79,
+            "contextWindow": 8192,
+            "maxOutputTokens": 8192,
+            "maxTemperature": 1.0
         }
     },
     {
@@ -32,9 +43,12 @@
         "model": "llama-3.1-70b-versatile",
         "available": true,
         "meta": {
-            "deprecated": true,
-            "contextWindow": 128000,
-            "maxOutputTokens": 32768
+            "deprecated": false,
+            "inputPrice": 0.59,
+            "outputPrice": 0.79,
+            "contextWindow": 131072,
+            "maxOutputTokens": 8192,
+            "maxTemperature": 1.0
         }
     },
     {
@@ -43,8 +57,37 @@
         "available": true,
         "meta": {
             "deprecated": false,
-            "contextWindow": 128000,
-            "maxOutputTokens": 8192
+            "inputPrice": 0.05,
+            "outputPrice": 0.08,
+            "contextWindow": 131072,
+            "maxOutputTokens": 8192,
+            "maxTemperature": 1.0
+        }
+    },
+    {
+        "name": "Llama 3 70B Tool Use (Preview)",
+        "model": "llama3-groq-70b-8192-tool-use-preview",
+        "available": true,
+        "meta": {
+            "deprecated": false,
+            "inputPrice": 0.89,
+            "outputPrice": 0.89,
+            "contextWindow": 8192,
+            "maxOutputTokens": 8192,
+            "maxTemperature": 1.0
+        }
+    },
+    {
+        "name": "Llama 3 8B Tool Use (Preview)",
+        "model": "llama3-groq-8b-8192-tool-use-preview",
+        "available": true,
+        "meta": {
+            "deprecated": false,
+            "inputPrice": 0.19,
+            "outputPrice": 0.19,
+            "contextWindow": 8192,
+            "maxOutputTokens": 8192,
+            "maxTemperature": 1.0
         }
     },
     {
@@ -53,7 +96,11 @@
         "available": true,
         "meta": {
             "deprecated": false,
-            "contextWindow": 8192
+            "inputPrice": 0.59,
+            "outputPrice": 0.79,
+            "contextWindow": 8192,
+            "maxOutputTokens": 8192,
+            "maxTemperature": 1.0
         }
     },
     {
@@ -62,7 +109,50 @@
         "available": true,
         "meta": {
             "deprecated": false,
-            "contextWindow": 8192
+            "inputPrice": 0.05,
+            "outputPrice": 0.08,
+            "contextWindow": 8192,
+            "maxOutputTokens": 8192,
+            "maxTemperature": 1.0
+        }
+    },
+    {
+        "name": "Gemma2 9B",
+        "model": "gemma2-9b-it",
+        "available": true,
+        "meta": {
+            "deprecated": false,
+            "inputPrice": 0.2,
+            "outputPrice": 0.2,
+            "contextWindow": 8192,
+            "maxOutputTokens": 8192,
+            "maxTemperature": 1.0
+        }
+    },
+    {
+        "name": "Gemma 7B",
+        "model": "gemma-7b-it",
+        "available": true,
+        "meta": {
+            "deprecated": false,
+            "inputPrice": 0.07,
+            "outputPrice": 0.07,
+            "contextWindow": 8192,
+            "maxOutputTokens": 8192,
+            "maxTemperature": 1.0
+        }
+    },
+    {
+        "name": "Mistral Saba 24B",
+        "model": "mistral-saba-24b",
+        "available": true,
+        "meta": {
+            "deprecated": false,
+            "inputPrice": 0.79,
+            "outputPrice": 0.79,
+            "contextWindow": 32768,
+            "maxOutputTokens": 8192,
+            "maxTemperature": 1.0
         }
     },
     {
@@ -71,124 +161,37 @@
         "available": true,
         "meta": {
             "deprecated": false,
-            "contextWindow": 32768
+            "inputPrice": 0.24,
+            "outputPrice": 0.24,
+            "contextWindow": 32768,
+            "maxOutputTokens": 8192,
+            "maxTemperature": 1.0
         }
     },
     {
-        "name": "Llama 3 Groq 70B Tool Use",
-        "model": "llama3-groq-70b-8192-tool-use-preview",
+        "name": "Qwen3 32B",
+        "model": "qwen/qwen3-32b",
         "available": true,
         "meta": {
-            "productionReady": false,
             "deprecated": false,
-            "contextWindow": 8192
+            "inputPrice": 0.29,
+            "outputPrice": 0.59,
+            "contextWindow": 32768,
+            "maxOutputTokens": 8192,
+            "maxTemperature": 1.0
         }
     },
     {
-        "name": "Llama 3 Groq 8B Tool Use",
-        "model": "llama3-groq-8b-8192-tool-use-preview",
+        "name": "Qwen QWQ 32B",
+        "model": "qwen-qwq-32b",
         "available": true,
         "meta": {
-            "productionReady": false,
             "deprecated": false,
-            "contextWindow": 8192
-        }
-    },
-    {
-        "name": "Llama 3.3 70B Speculative Decoding",
-        "model": "llama-3.3-70b-specdec",
-        "available": true,
-        "meta": {
-            "productionReady": false,
-            "deprecated": false,
-            "contextWindow": 8192
-        }
-    },
-    {
-        "name": "Llama 3.1 70B Speculative Decoding",
-        "model": "llama-3.1-70b-specdec",
-        "available": true,
-        "meta": {
-            "productionReady": false,
-            "deprecated": false,
-            "maxOutputTokens": 8192
-        }
-    },
-    {
-        "name": "Llama 3.2 1B",
-        "model": "llama-3.2-1b-preview",
-        "available": true,
-        "meta": {
-            "productionReady": false,
-            "deprecated": false,
-            "contextWindow": 128000,
-            "maxOutputTokens": 8192
-        }
-    },
-    {
-        "name": "Llama 3.2 3B",
-        "model": "llama-3.2-3b-preview",
-        "available": true,
-        "meta": {
-            "productionReady": false,
-            "deprecated": false,
-            "contextWindow": 128000,
-            "maxOutputTokens": 8192
-        }
-    },
-    {
-        "name": "Llama 3.2 11B Vision",
-        "model": "llama-3.2-11b-vision-preview",
-        "available": true,
-        "meta": {
-            "productionReady": false,
-            "deprecated": false,
-            "contextWindow": 128000,
-            "maxOutputTokens": 8192
-        }
-    },
-    {
-        "name": "Llama 3.2 90B Vision",
-        "model": "llama-3.2-90b-vision-preview",
-        "available": true,
-        "meta": {
-            "productionReady": false,
-            "deprecated": false,
-            "contextWindow": 128000,
-            "maxOutputTokens": 8192
-        }
-    },
-    {
-        "name": "Qwen 2.5 32B",
-        "model": "qwen-2.5-32b",
-        "available": true,
-        "meta": {
-            "productionReady": false,
-            "deprecated": false,
-            "contextWindow": 128000,
-            "maxOutputTokens": 8192
-        }
-    },
-    {
-        "name": "Deepseek R1 Distill Qwen 32B",
-        "model": "deepseek-r1-distill-qwen-32b",
-        "available": true,
-        "meta": {
-            "productionReady": false,
-            "deprecated": false,
-            "contextWindow": 128000,
-            "maxOutputTokens": 16384
-        }
-    },
-    {
-        "name": "Deepseek R1 Distill Llama 70B SpecDec",
-        "model": "deepseek-r1-distill-llama-70b-specdec",
-        "available": true,
-        "meta": {
-            "productionReady": false,
-            "deprecated": false,
-            "contextWindow": 128000,
-            "maxOutputTokens": 16384
+            "inputPrice": 0.29,
+            "outputPrice": 0.39,
+            "contextWindow": 32768,
+            "maxOutputTokens": 8192,
+            "maxTemperature": 1.0
         }
     },
     {
@@ -196,9 +199,12 @@
         "model": "deepseek-r1-distill-llama-70b",
         "available": true,
         "meta": {
-            "productionReady": false,
             "deprecated": false,
-            "contextWindow": 128000
+            "inputPrice": 0.75,
+            "outputPrice": 0.99,
+            "contextWindow": 8192,
+            "maxOutputTokens": 8192,
+            "maxTemperature": 1.0
         }
     }
 ]
